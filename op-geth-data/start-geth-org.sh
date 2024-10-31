@@ -25,8 +25,6 @@ export P2P_BOOTNODES="enr:-KO4QHs5qh_kPFcjMgqkuN9dbxXT4C5Cjad4SAheaUxveCbJQ3XdeM
   --http.addr=0.0.0.0 \
   --http.port=8545 \
   --http.api=net,eth,engine,debug \
-  --pprof \
-  --pprof.port=6070 \
   --ws \
   --ws.addr=0.0.0.0 \
   --ws.port=8545 \
@@ -48,9 +46,6 @@ export P2P_BOOTNODES="enr:-KO4QHs5qh_kPFcjMgqkuN9dbxXT4C5Cjad4SAheaUxveCbJQ3XdeM
   --authrpc.vhosts="*" \
   --authrpc.jwtsecret=./jwt.txt \
   --rpc.allow-unprotected-txs \
-  --parallel \
-  --parallel.txdag \
-  --parallel.txdagfile=./parallel-txdag-output.csv \
   --gcmode=archive \
   --metrics \
   --metrics.port 6068 \

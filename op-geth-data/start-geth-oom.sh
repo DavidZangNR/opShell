@@ -51,6 +51,7 @@ export P2P_BOOTNODES="enr:-KO4QHs5qh_kPFcjMgqkuN9dbxXT4C5Cjad4SAheaUxveCbJQ3XdeM
   --parallel \
   --parallel.txdag \
   --parallel.txdagfile=./parallel-txdag-output.csv \
+  --parallel.unordered-merge \
   --gcmode=archive \
   --metrics \
   --metrics.port 6068 \
